@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
+@import "tailwindcss";
+html {
+  scroll-behavior: smooth;
+}
+
+*{
+    font-family: "Zalando Sans Expanded", sans-serif;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+@layer utilities {
+  @keyframes marquee {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  .animate-marquee {
+    animation: marquee 18s linear infinite;
+  }
+}
