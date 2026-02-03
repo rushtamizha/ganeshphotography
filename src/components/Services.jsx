@@ -19,6 +19,8 @@ const services = [
       "Creative Newborn Posing (with imported props)",
       "Outdoor & Indoor Maternity Shoots",
       "Baby Shower Coverage",
+      "Celebrate the journey of motherhood. We provide a comfortable, private studio environment to capture the strength and beauty of your pregnancy.",
+      "The Beginning Those tiny fingers and toes change so fast. We specialize in safe, creative, and patient newborn photography. From sleeping womb-like poses to the first smiles of a toddler, we handle your little ones with the utmost care.`,
     ],
   },
   {
@@ -28,6 +30,7 @@ const services = [
       "Parties",
       "Conference",
       "Get together",
+      "In today’s digital world, your professional image is your first handshake. DS Photography provides high-end corporate photography services designed to make your business stand out. Whether you are a startup in Trichy or an established firm, we bring technical precision to every frame."
     ],
   },
   {
@@ -59,7 +62,6 @@ export default function Services() {
         {/* HEADER */}
         <div className="mb-12 flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
           <div>
-            <span className="text-sm text-[#0c628f]">( Services )</span>
             <h2 className="mt-2 text-3xl font-bold text-gray-900">
               Services I Provide
             </h2>
