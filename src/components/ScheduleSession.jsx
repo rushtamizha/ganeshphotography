@@ -66,7 +66,6 @@ ${form.message}
     <section className="bg-white py-20">
       <div className="mx-auto max-w-7xl px-4">
         <div className="mb-12 text-center">
-          <span className="text-sm text-[#0c628f]">( Schedule Session )</span>
           <h2 className="mt-3 text-3xl font-extrabold text-gray-900">
             Schedule Your <br /> Session Right Here
           </h2>
