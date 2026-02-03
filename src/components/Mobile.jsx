@@ -1,12 +1,12 @@
-import { X } from "lucide-react";
+import { X, MapPin } from "lucide-react";
 import { useDrawer } from "../components/DrawerContext";
 
-const menu = ["home", "services", "projects", "pricing", "about"];
+const menu = ["home", "services", "projects", "about"];
 
 export default function MobileDrawer({ active, setActive }) {
   const { drawerOpen, closeDrawer } = useDrawer();
 
-const scrollToSection = (id) => {
+  const scrollToSection = (id) => {
     const el = document.getElementById(id);
     if (!el) return;
 
@@ -39,10 +39,13 @@ const scrollToSection = (id) => {
 
         <nav className="flex flex-col gap-6 px-6 py-8">
           {menu.map((item) => (
-            <button  onClick={() => { scrollToSection(item); setActive(item);
-                closeDrawer()} }
+            <button
+              onClick={() => {
+                scrollToSection(item);
+                setActive(item);
+                closeDrawer();
+              }}
               key={item}
-              
               className={`text-left capitalize text transition
                 ${
                   active === item
@@ -53,8 +56,23 @@ const scrollToSection = (id) => {
               {item}
             </button>
           ))}
-          <button onClick={()=> window.open("https://wa.me/919942619744","_blank")} className=" md:flex rounded-full bg-[#43bfd0] px-5 py-2 text-sm font-semibold text-[#03141d]">
+          <button
+            onClick={() => window.open("https://wa.me/919942619744", "_blank")}
+            className=" md:flex rounded-full bg-[#43bfd0] px-5 py-2 text-sm font-semibold text-[#03141d]"
+          >
             Contact Me
+          </button>
+          <button
+            onClick={() =>
+              window.open(
+                "https://maps.app.goo.gl/xNQxGoV89QF6KVqQ9",
+                "_blank",
+              )
+            }
+            className="flex items-center justify-center gap-2 rounded-full border border-white/20 px-5 py-2 text-sm font-semibold text-white transition hover:bg-white/10"
+          >
+            <MapPin size={16} />
+            View Location
           </button>
         </nav>
       </div>
