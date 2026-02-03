@@ -1,13 +1,12 @@
 import { ArrowRight } from "lucide-react";
 import { Facebook, Instagram, Twitter, Youtube, Linkedin } from "lucide-react";
-import logo from '../assets/logo.png'
+import logo from "../assets/logo.png";
 const socialLinks = [
-
   {
     id: "instagram",
     url: "https://instagram.com/saiganesh02",
     icon: Instagram,
-  }
+  },
 ];
 
 export default function Footer() {
@@ -45,6 +44,12 @@ export default function Footer() {
               </a>
             ))}
           </div>
+        </div>
+
+        {/* GOOGLE MAP */}
+        <div className="mt-6 overflow-hidden rounded-xl border border-white/10">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d501654.0940683147!2d78.19318176562501!3d10.798088400000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baaf3e579cfa4a7%3A0x2499d543149d421c!2sDS%20Photography%20-%20Newborn%20%26%20Maternity%20Photography!5e0!3m2!1sen!2sin!4v1770121989267!5m2!1sen!2sin"  className="h-full w-full border-0"
+      loading="lazy"referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
         {/* COMPANY */}
