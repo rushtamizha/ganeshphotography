@@ -20,7 +20,7 @@ const services = [
       "Outdoor & Indoor Maternity Shoots",
       "Baby Shower Coverage",
       "Celebrate the journey of motherhood. We provide a comfortable, private studio environment to capture the strength and beauty of your pregnancy.",
-      "The Beginning Those tiny fingers and toes change so fast. We specialize in safe, creative, and patient newborn photography. From sleeping womb-like poses to the first smiles of a toddler, we handle your little ones with the utmost care.`,
+      "The Beginning Those tiny fingers and toes change so fast. We specialize in safe, creative, and patient newborn photography. From sleeping womb-like poses to the first smiles of a toddler, we handle your little ones with the utmost care.",
     ],
   },
   {
