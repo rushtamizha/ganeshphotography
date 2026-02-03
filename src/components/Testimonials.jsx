@@ -35,7 +35,6 @@ export default function Testimonials() {
         {/* HEADER */}
         <div className="mb-14 flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
           <div>
-            <span className="text-sm text-white/60">( Testimonial )</span>
             <h2 className="mt-3 max-w-xl text-3xl font-extrabold text-white lg:text-4xl">
               What People Say <br />
               About My Photography
