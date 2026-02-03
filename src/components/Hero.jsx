@@ -10,7 +10,7 @@ const Hero = () => {
   const { toggleDrawer } = useDrawer();
   const navigate = useNavigate();
 
-  const menu = ["home", "services", "projects", "pricing", "about"];
+  const menu = ["home", "services", "projects", "about",];
 
   // smooth scroll handler
   const scrollToSection = (id) => {
