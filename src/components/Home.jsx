@@ -22,6 +22,7 @@ function App() {
       <WorkingProcess/>
        <Stripe/>
       <Projects/>
+      <Stripe/>
       <Pricing/>
       <Testimonials/>
       <ScheduleSession/>
