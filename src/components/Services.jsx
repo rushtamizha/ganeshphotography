@@ -76,7 +76,7 @@ export default function Services() {
           {services.map((service, index) => (
             <div
               key={index}
-              className="rounded-2xl bg-gray-50 p-6 md:p-8"
+              className="rounded-xl bg-gray-50 p-6 md:p-8"
             >
               <div className="flex flex-col gap-6 md:flex-row md:items-start md:justify-between">
 
