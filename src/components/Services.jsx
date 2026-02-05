@@ -96,7 +96,7 @@ export default function Services() {
                       {service.tags.map((tag, i) => (
                         <span
                           key={i}
-                          className="rounded-full border border-gray-200 px-3 py-1 text-xs text-gray-600"
+                          className="rounded-xl border border-gray-200 px-3 py-1 text-xs text-gray-600"
                         >
                           {tag}
                         </span>
