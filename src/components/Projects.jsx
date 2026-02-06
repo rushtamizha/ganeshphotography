@@ -64,7 +64,7 @@ export default function Projects() {
           {projects.map((project, index) => (
             <SwiperSlide key={index}>
               <div
-                onClick={() => window.open(project.image, "_blank")}
+                onClick={() => navigate('/my-projects')}
                 className="group relative cursor-pointer overflow-hidden rounded-2xl bg-white/5 p-4 transition hover:bg-white/10"
               >
                 {/* IMAGE */}
