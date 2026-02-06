@@ -19,9 +19,7 @@ const services = [
       "Creative Newborn Posing (with imported props)",
       "Outdoor & Indoor Maternity Shoots",
       "Baby Shower Coverage",
-      "Celebrate the journey of motherhood. We provide a comfortable, private studio environment to capture the strength and beauty of your pregnancy.",
-      "The Beginning Those tiny fingers and toes change so fast. We specialize in safe, creative, and patient newborn photography. From sleeping womb-like poses to the first smiles of a toddler, we handle your little ones with the utmost care.",
-    ],
+    ],description:"Celebrate the journey of motherhood. We provide a comfortable, private studio environment to capture the strength and beauty of your pregnancy.The Beginning Those tiny fingers and toes change so fast. We specialize in safe, creative, and patient newborn photography. From sleeping womb-like poses to the first smiles of a toddler, we handle your little ones with the utmost care"
   },
   {
     id: "03",
@@ -30,8 +28,7 @@ const services = [
       "Parties",
       "Conference",
       "Get together",
-      "In today’s digital world, your professional image is your first handshake. DS Photography provides high-end corporate photography services designed to make your business stand out. Whether you are a startup in Trichy or an established firm, we bring technical precision to every frame."
-    ],
+    ],description:"In today’s digital world, your professional image is your first handshake. DS Photography provides high-end corporate photography services designed to make your business stand out. Whether you are a startup in Trichy or an established firm, we bring technical precision to every frame."
   },
   {
     id: "04",
@@ -40,8 +37,7 @@ const services = [
       "Album Designing",
       "Invitation",
       "Retouch",
-      "In today’s digital world, your professional image is your first handshake. DS Photography provides high-end corporate photography services designed to make your business stand out. Whether you are a startup in Trichy or an established firm, we bring technical precision to every frame."
-    ],
+    ],description:"In today’s digital world, your professional image is your first handshake. DS Photography provides high-end corporate photography services designed to make your business stand out. Whether you are a startup in Trichy or an established firm, we bring technical precision to every frame."
   },{
     id:"05",
     title:"Specialized Keepsakes",
@@ -66,9 +62,7 @@ export default function Services() {
               Services I Provide
             </h2>
           </div>
-          <p className="max-w-md text-sm text-gray-500">
-            At DS Photography, we don't just take pictures; we preserve your legacy. Combining years of technical expertise with a passion for storytelling, we offer a full suite of photography and videography services tailored to your family's most important milestones.
-          </p>
+          
         </div>
 
         {/* SERVICES LIST */}
@@ -76,7 +70,7 @@ export default function Services() {
           {services.map((service, index) => (
             <div
               key={index}
-              className="rounded-xl bg-gray-50 p-6 md:p-8"
+              className="rounded-2xl bg-gray-50 p-6 md:p-8"
             >
               <div className="flex flex-col gap-6 md:flex-row md:items-start md:justify-between">
 
@@ -96,7 +90,7 @@ export default function Services() {
                       {service.tags.map((tag, i) => (
                         <span
                           key={i}
-                          className="rounded-xl border border-gray-200 px-3 py-1 text-xs text-gray-600"
+                          className="rounded-full border border-gray-200 px-3 py-1 text-xs text-gray-600"
                         >
                           {tag}
                         </span>
