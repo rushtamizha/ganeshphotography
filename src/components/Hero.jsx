@@ -66,7 +66,7 @@ const Hero = () => {
         </svg>
 
         {/* HEADER */}
-        <header className=" z-20 mx-auto flex  items-center justify-between px-4 py-4 lg:px-8 fixed bg-white w-full">
+        <header className=" z-20 mx-auto flex  items-center justify-between px-4 py-4 lg:px-8 fixed bg-[#03141d] w-full">
           <div
             className="flex items-center gap-2"
             onClick={() => navigate("/")}
