@@ -129,9 +129,7 @@ const Hero = () => {
             </h1>
 
             <p className="mt-6 text-white/70 max-w-xl">
-              From timeless wedding cinema to adorable newborn portraits, we
-              turn your special days into lifelong memories. Now open at Kattur,
-              Trichy
+              At DS Photography, we don't just take pictures; we preserve your legacy. Combining years of technical expertise with a passion for storytelling, we offer a full suite of photography and videography services tailored to your family's most important milestones.
             </p>
 
             <button onClick={()=> window.open("https://dsphotography02.myportfolio.com/", "_blank")} className="mt-8 inline-flex items-center gap-3 rounded-full bg-[#43bfd0] px-6 py-3 font-semibold text-[#03141d]">
