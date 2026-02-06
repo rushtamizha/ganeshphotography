@@ -48,7 +48,7 @@ export default function About() {
 
         {/* ================= RIGHT CONTENT ================= */}
         <div>
-          <span className="text-sm text-white/60">( About Me )</span>
+    
 
           <h2 className="mt-2 text-3xl font-extrabold text-white lg:text-4xl">
             About <span className="text-[#43bfd0]">DS Photography
