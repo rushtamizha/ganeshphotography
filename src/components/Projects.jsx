@@ -29,7 +29,6 @@ export default function Projects() {
         {/* HEADER */}
         <div className="mb-14 flex flex-col gap-8 lg:flex-row lg:items-center lg:justify-between">
           <div>
-            <span className="text-sm text-white/60">( Our Projects )</span>
             <h2 className="mt-3 max-w-xl text-3xl font-extrabold leading-tight text-white lg:text-4xl">
               View My Recent <br />
               Video Projects
