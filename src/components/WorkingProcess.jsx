@@ -33,7 +33,6 @@ export default function WorkingProcess() {
       <div className="mx-auto max-w-6xl px-4 text-center">
 
         {/* HEADER */}
-        <span className="text-sm text-[#0c628f]">( My Working Process )</span>
         <h2 className="mt-3 text-3xl font-extrabold text-gray-900">
           The Way I Capture Moments
         </h2>
