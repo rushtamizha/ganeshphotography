@@ -35,7 +35,6 @@ export default function Faq() {
       <div className="mx-auto max-w-7xl px-4">
         {/* HEADER */}
         <div className="mb-14 text-center">
-          <span className="text-sm text-[#0c628f]">( FAQs )</span>
           <h2 className="mt-3 text-3xl font-extrabold text-gray-900">
             Question? Look here.
           </h2>
