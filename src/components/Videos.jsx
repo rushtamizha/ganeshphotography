@@ -42,7 +42,6 @@ export default function Media() {
 
           {/* HEADER */}
           <div className="mb-10 text-center">
-            <span className="text-sm text-[#0c628f]">( My Work )</span>
             <h2 className="mt-3 text-3xl font-extrabold text-gray-900">
               Photography Projects
             </h2>
