@@ -24,7 +24,6 @@ export default function InstagramFollow() {
         {/* HEADER */}
         <div className="mb-10 flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
           <div>
-            <span className="text-sm text-white/60">( Follow Me )</span>
             <h2 className="mt-3 text-3xl font-extrabold text-white">
               Follow Me on Instagram
             </h2>
