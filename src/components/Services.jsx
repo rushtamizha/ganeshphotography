@@ -37,7 +37,7 @@ const services = [
       "Album Designing",
       "Invitation",
       "Retouch",
-    ],description:"In today’s digital world, your professional image is your first handshake. DS Photography provides high-end corporate photography services designed to make your business stand out. Whether you are a startup in Trichy or an established firm, we bring technical precision to every frame."
+    ]
   },{
     id:"05",
     title:"Specialized Keepsakes",
